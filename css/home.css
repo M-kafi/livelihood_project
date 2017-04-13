@@ -19,6 +19,8 @@ main
 #secOne
 {
     height:100%;
+    background:url("../images/2.jpg");
+    background-size: cover;
 }
 
 #intro
@@ -28,6 +30,9 @@ main
     position: absolute;
     bottom: 20px;
     width:100%;
+    font-family: 'Indie Flower', cursive;
+    color:snow;
+    font-size: 4em;
 }
 
 
