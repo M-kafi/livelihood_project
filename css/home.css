@@ -16,11 +16,66 @@ main
  background-color:antiquewhite;   
 }
 
+/*------------------- the logo style----------------------- */ 
+header
+{
+    display:block;
+    position: absolute;
+    top: 10px;
+    left: 13px;
+   
+    
+}
+
+#logo
+{
+    display: block;
+    
+  background: url("../images/large_logo.png") no-repeat  ;
+  
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    
+}
+
+/*--End logo styles--*/
+
+
+/*------------------- navigation style----------------------- */ 
+
+#burgerButton
+{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/three.png") no-repeat  ;
+    background-size: cover;
+    position: fixed;
+    top:40px;
+    right:40px;
+}
+
+/*--End of navigation styles--*/
+
+
+
+
+
+
+/*------------------- section one style----------------------- */ 
 #secOne
 {
     height:100%;
-    background:url("../images/2.jpg");
-    background-size: cover;
+    background:url("../images/Bannerphoto.jpg") no-repeat fixed ;
+    
+ 
+}
+
+
+.white
+{
+    color:snow;
 }
 
 #intro
@@ -30,10 +85,33 @@ main
     position: absolute;
     bottom: 20px;
     width:100%;
-    font-family: 'Indie Flower', cursive;
-    color:snow;
+    font-family: 'Indie Flower', cursive; 
+    color:rgba(152, 76, 22, 1);
     font-size: 4em;
 }
+
+
+/*--End of section one styles--*/
+
+/*------------------- section one style----------------------- */ 
+
+
+
+
+
+#secTwo
+{
+    height:100%;
+    background-color: antiquewhite;
+    
+ 
+}
+
+/*--End of section two styles--*/
+
+
+
+
 
 
 
