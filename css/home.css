@@ -33,8 +33,8 @@ header
     
   background: url("../images/large_logo.png") no-repeat  ;
   
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     background-size: cover;
     
 }
@@ -54,14 +54,39 @@ header
     position: fixed;
     top:40px;
     right:40px;
+    cursor: pointer;
+    
 }
 
 /*--End of navigation styles--*/
 
 
+/*------------------- navigation bar styles----------------------- */ 
+nav a
+{
+    display: block;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Average Sans', sans-serif;
+
+    }
+
+nav
+{
+    padding-top: 10px;
+    display: block;
+    width: 200px;
+    position: fixed;
+    top:100px;
+    right: 50px;
+    background-color:#f2f2f2;
+    border-radius: 20px;
+    
+}
 
 
-
+/*--End of navigation styles--*/
 
 /*------------------- section one style----------------------- */ 
 #secOne
@@ -83,9 +108,29 @@ header
     margin: 0px auto;
     text-align: center;
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
+    left:13%;
     width:100%;
-    font-family: 'Indie Flower', cursive; 
+    font-weight: 300;
+ //  font-family: 'Indie Flower', cursive; 
+    //font-family:  'Average Sans', sans-serif;
+   // font-family: 'Amatic SC', cursive;
+    
+    
+    
+    
+   // font-family: 'Amatic SC', cursive;
+
+  // font-family: 'Tenali Ramakrishna', sans-serif;
+
+  //  font-family: 'Signika', sans-serif;
+
+   font-family: 'Asap', sans-serif;
+
+    // font-family: 'Abel', sans-serif;
+
+    
+    
     color:rgba(152, 76, 22, 1);
     font-size: 4em;
 }
@@ -93,7 +138,7 @@ header
 
 /*--End of section one styles--*/
 
-/*------------------- section one style----------------------- */ 
+/*------------------- section two style----------------------- */ 
 
 
 
@@ -102,15 +147,193 @@ header
 #secTwo
 {
     height:100%;
-    background-color: antiquewhite;
-    
- 
+    background: url("../images/second_sec_b_large.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+
 }
+
+#art_secTwo
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+
+    background-color: rgba(66, 33, 0, 0.9);
+    
+}
+
+#secTwo_logo
+{
+    display: block;
+    background: url("../images/large_logo_g.jpg") no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+.secTwo_h
+{
+    color: snow;
+    text-align: center;
+    font-family: 'Average Sans', sans-serif;
+    font-size: 30px;
+}
+
+.secTwo_p
+{
+   padding-left: 100px;
+   padding-right: 60px;
+   
+    color: snow;
+    text-align: center;
+    font-family: 'Average Sans', sans-serif;
+    font-size: 30px;
+}
+
 
 /*--End of section two styles--*/
 
 
+/*------------------- section three style----------------------- */ 
 
+#secThree
+{
+    height:auto;
+    background: url("../images/third_section_background_large.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+#art_secThree
+{
+    padding-top: 20px;
+}
+
+
+
+/*-----to style the first div containing the first sectio of section three-----*/
+
+
+
+.firstDiv_secThree
+{
+    
+    width: 400px;
+    margin: 0px auto;
+    border-bottom: 3px solid white;
+    
+}
+/*-----END-----*/
+
+/*-----to style the heading of the first sectio of section three-----*/
+.secThree_h
+{
+    color: snow;
+    text-align: center;
+    font-family: 'Average Sans', sans-serif;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+/*-----END-----*/
+
+
+
+
+/*-----END of styling the first div-----*/
+
+
+
+/*-----to style the SECOND div containing the first sectio of section three-----*/
+
+/*-----to style the div containing the second sectio of a article-----*/
+.lineDiv_secThree
+{
+    display: inline-block;
+  overflow: hidden; 
+    width: auto;
+    margin: 0px auto;
+    text-align: center;
+    
+    
+}
+/*-----END-----*/
+
+
+/*-----to style the article container div2 section two-----*/
+.article_container_div2
+{
+    display: block;
+    float: left;
+    width: 500px;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+/*-----END-----*/
+
+/*-----to style the div containing the header of a paragraph-----*/
+.secThree_p_h_div
+{
+    width:200px;
+    text-align: center;
+    margin: 0px auto;
+}
+/*-----END-----*/
+
+
+
+/*-----to style the text of the header of paragraph in section two-----*/
+.secThree_p_h
+{
+    color: snow;
+    text-align: center;
+    font-family: 'Average Sans', sans-serif;
+    font-size: 40px;
+    margin-bottom: 5px;
+    padding-bottom: 8px;
+    text-align: center;
+
+}
+/*-----END-----*/
+
+
+
+/*-----to style the text of the paragraph in div two section two-----*/
+.secThree_div2_p
+{
+    color: snow;
+    text-align: center;
+    font-family: 'Average Sans', sans-serif;
+    font-size: 24px;
+}
+
+/*-----END-----*/
+
+
+
+
+
+
+
+
+
+/*-----END of styling the SECOND div-----*/
+
+
+
+
+
+
+/*--End of section three styles--*/
 
 
 
