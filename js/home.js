@@ -1,7 +1,6 @@
 $(document).ready(function(){
  
-    
-    
+
     
     //--------------------to show and hide the navigation bar ---------------
       $("#navBar").hide();
@@ -20,6 +19,7 @@ $(document).ready(function(){
              status = 1;
          }
      
+         
   
      
      
@@ -28,6 +28,16 @@ $(document).ready(function(){
  //--end of th function to show and hide the navigation bar --
 
 
+        
+   // $("#one").hide();
+ //  $("#two").hide();
+   //$("#three").hide();
+    
+    
+    $("#one").animate({width:'250px', paddingleft:'20px', opacity: '1', right: '0px' },1000);
+    $("#two").animate({width:'250px', paddingleft:'20px', opacity: '1', right: '0px'}, 2000 );
+    $("#three").animate({width:'250px', paddingleft:'20px', opacity: '1', right: '0px'},3000 );
+    
 });
      
     
