@@ -1,7 +1,24 @@
 $(document).ready(function(){
  
-
+  
+    change_text();
     
+    
+    setInterval(function() {
+            // code to be repeated
+         $("#b").hide();
+  $("#a").hide().fadeIn(5000).fadeOut(3000,  function(){   $("#b").fadeIn(5000).fadeOut(3000);    } );
+        
+      }, 16000); // every 1000 ms
+    
+    function change_text(){
+   
+    $("#b").hide();
+  $("#a").hide().fadeIn(5000).fadeOut(3000,  function(){   $("#b").fadeIn(5000).fadeOut(3000);    } );
+           
+        
+    };
+   
     //--------------------to show and hide the navigation bar ---------------
       $("#navBar").hide();
     
@@ -101,4 +118,14 @@ $(document).ready(function(){
     
  //-------END of project section ------   
     
+    //----- change the text of the header in the project section ----
+
     
+
+
+
+
+
+
+
+//------END of changing the text in projects section -----
