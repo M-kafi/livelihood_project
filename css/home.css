@@ -581,7 +581,100 @@ position: absolute;
 }
 
 
-/*-----END of secton four style-----*/
+/*-----END of section four style-----*/
+
+/*---------- section five ---------- */
+
+
+#fifth_sec
+{
+    
+    display: block;
+    height: 1000px;
+    
+    width: 100%;
+    background: url("../images/fifth_sec_b.jpg") no-repeat ;
+    background-size: cover;
+    
+    
+    
+}
+
+
+#fifth_sec_text  h1
+{
+    color: snow;
+     font-family: 'Average Sans', sans-serif;
+   
+    margin-top: 30px;
+   
+  
+    
+}
+
+
+#fifth_sec_text
+{
+    display: block;
+    padding-top: 40px; 
+    text-align: center;
+     width: 80%;
+    margin: 0px auto;
+    padding-top: 
+
+}
+
+
+
+#headline1_fifth_sec
+{
+    margin-bottom: 250px;
+     font-weight:bold;
+    font-size: 60px;
+}
+
+#headline2_fifth_sec
+{
+    
+    font-weight:bold;
+    font-size: 80px;
+}
+
+
+#fifth_sec_links a
+{
+    
+   display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: snow;
+    border-radius: 10px;
+    width: 100px;
+    font-family: 'Average Sans', sans-serif;
+    font-weight: 800;
+    
+    color: #3b332b;
+    cursor: pointer;
+    
+    
+}
+
+
+/*-------- END of section five --------- */
+
+/*---------- footer -------- */
+
+footer
+{
+    height: 100px;
+    background-color: aliceblue;
+}
+
+/*------- END of footer --------- */
+
+
+
+
 
 
 
