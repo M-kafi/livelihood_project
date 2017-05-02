@@ -1,7 +1,13 @@
 $(document).ready(function(){
- 
   
+
+    
+
     change_text();
+  
+    
+    
+
     
     
     setInterval(function() {
@@ -55,7 +61,16 @@ $(document).ready(function(){
     
     //--------------projects section------------
     
+   
     
+    
+        
+    if ( $(window).width() > 1025) {      
+  //Add your javascript for large screens here 
+        
+        
+   
+
     
     //---- trigger the event when the mouse over the element -----
     $(".part").mouseover( function(){
@@ -113,8 +128,28 @@ $(document).ready(function(){
         
     } );
     
+        
+        
+        } 
+else {
+  //Add your javascript for small screens here 
+}
+ 
+    
+    
+    
+
+
+
+    
+
+    
 });
      
+
+
+    
+
     
  //-------END of project section ------   
     

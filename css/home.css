@@ -16,6 +16,49 @@ main
  background-color:antiquewhite;   
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1025px)
+{
+    
+    
+    
+   *,h1,h2,h3,h4,h5,h6
+    {
+        
+        
+   font-size: 16px;
+        
+        
+        
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
 /*------------------- the logo style----------------------- */ 
 header
 {
@@ -38,6 +81,28 @@ header
     background-size: cover;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*--End logo styles--*/
 
@@ -254,6 +319,39 @@ position: absolute;
 }
 
 
+
+
+@media screen and (max-width: 1024px)
+{
+    
+    
+    
+    .secTwo_h
+    {
+        
+        
+   font-size: 180%;
+        
+        
+        
+    }
+    
+    .secTwo_p
+    {
+          font-size: 150%;
+        
+    }
+
+    
+    
+    
+}
+
+
+
+
+
+
 /*--End of section two styles--*/
 
 
@@ -393,6 +491,75 @@ position: absolute;
 
 
 
+@media screen and (max-width: 1024px)
+{
+    
+    
+    
+   .secThree_h
+    {
+        
+        
+   font-size: 180%;
+        
+        
+        
+    }
+    .secThree_p_h
+    {
+        
+         font-size: 180%;
+        
+    }
+    
+    .secThree_div2_p
+    {
+           font-size: 150%;
+        
+    }
+    
+    
+    
+    .lineDiv_secThree
+    {
+        display: block;
+      overflow: hidden; 
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+
+
+    }
+    
+    
+    .article_container_div2
+    {
+        float: none;
+        margin: 0px auto;
+    }
+
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*--End of section three styles--*/
 
@@ -432,7 +599,7 @@ position: absolute;
     width: 100%;
     height: 100%;
     display: block;
-    background-color: snow;
+    background-color: #f7f7f7;
     overflow: hidden;
     text-align: center;
     padding-top: 10px;
@@ -581,6 +748,192 @@ position: absolute;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px)
+{
+    
+  .container_div
+{
+    overflow: hidden;
+    margin: 0px auto;
+    display: inline-block;
+    height: 700px;
+    width:100%;
+   
+}
+    
+    
+    .projects_text_container
+{
+    
+    margin: 0px auto;
+    display: inline-block;
+
+    color: snow;
+    background-color: rgba(7, 12, 14, 0.64);
+    cursor: pointer;
+}
+    
+    
+    .part
+{
+    
+   box-sizing: content-box;
+    width:30%;
+    height: 250px;
+    background-color: antiquewhite;
+    display: inline-block;
+   padding: 0px;
+    margin-bottom: 5%;
+    
+
+    
+}
+    
+    .part_one
+{
+       position: static;
+    left: 0%;
+
+  
+    margin: 0px;
+    margin-right: 0%;
+    background: url("../images/soccer.jpg");
+    background-size: cover;
+    z-index: 5;
+    border-right: 5px solid white;
+}
+    
+    
+    .part_two
+{
+    position: static;
+  //  left: 0%;
+     
+  
+    background-color: aqua;
+      border-left: 5px solid white;
+     border-right: 5px solid white;
+    z-index:5;
+     background: url("../images/project2.jpg");
+    background-size: cover;
+}
+    
+    
+    
+    
+.part_three
+{
+   
+      position:static;
+   
+      border-left: 5px solid white;
+     border-right: 5px solid white;
+     background: url("../images/project3.jpg");
+     background-size: cover;
+    z-index:0;
+}
+
+
+.part_four
+{
+         
+   position:static;
+    
+      border-left: 5px solid white;
+     border-right: 5px solid white;
+       background: url("../images/project4.png");
+     background-size: cover;
+    z-index:0;
+}
+
+
+.part_five
+{
+   position:static;
+   
+    
+    
+     border-left: 5px solid white;
+     border-right: 5px solid white;
+     background: url("../images/project5.jpg");
+     background-size: cover;
+    z-index:0;
+     
+   
+    
+}
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+#b,#a
+    {
+      
+       font-size: 180%;
+        margin-bottom: 20px;
+    }
+    
+    #projects_p
+    {
+        
+        font-size: 180%;
+        
+    }
+    
+    .link_text
+    {
+         font-size: 150%;
+    }
+    
+    #projects_footer
+    {
+        
+        
+            font-size: 150%;
+        
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-----END of section four style-----*/
 
 /*---------- section five ---------- */
@@ -658,6 +1011,104 @@ position: absolute;
     
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px)
+{
+    
+    
+
+@media screen and (max-width: 1024px)
+{
+    
+    
+  #headline1_fifth_sec
+    {
+       
+       font-size: 180%;
+  
+
+    }
+
+#headline2_fifth_sec
+    {
+      
+       font-size: 180%;
+       
+    }
+    
+    #projects_p
+    {
+        
+        font-size: 180%;
+        
+    }
+    
+    .link_text
+    {
+         font-size: 150%;
+    }
+    
+    #projects_footer
+    {
+        
+        
+            font-size: 150%;
+        
+    }
+
+    
+}
+
+
+    {
+       
+       font-size: 180%;
+        margin-bottom: 20px;
+
+    }
+
+#b
+    {
+      
+       font-size: 180%;
+        margin-bottom: 20px;
+    }
+    
+    #projects_p
+    {
+        
+        font-size: 180%;
+        
+    }
+    
+    .link_text
+    {
+         font-size: 150%;
+    }
+    
+    #projects_footer
+    {
+        
+        
+            font-size: 150%;
+        
+    }
+
+    
+}
+
+
 
 
 /*-------- END of section five --------- */
