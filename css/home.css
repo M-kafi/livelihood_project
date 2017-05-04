@@ -768,7 +768,7 @@ position: absolute;
     overflow: hidden;
     margin: 0px auto;
     display: inline-block;
-    height: 700px;
+    height: 400px;
     width:100%;
    
 }
@@ -791,11 +791,14 @@ position: absolute;
     
    box-sizing: content-box;
     width:30%;
-    height: 250px;
+    height: 30%;
+    min-height: 200px;
     background-color: antiquewhite;
     display: inline-block;
-   padding: 0px;
+    padding: 0px;
     margin-bottom: 5%;
+    vertical-align: top;
+    
     
 
     
@@ -803,11 +806,11 @@ position: absolute;
     
     .part_one
 {
-       position: static;
+    position: static;
     left: 0%;
-
+    
   
-    margin: 0px;
+    
     margin-right: 0%;
     background: url("../images/soccer.jpg");
     background-size: cover;
@@ -874,16 +877,7 @@ position: absolute;
    
     
 }
-
-
-    
-    
-    
-    
-    
-    
-    
-    
+  
 
 #b,#a
     {
@@ -920,7 +914,72 @@ position: absolute;
 
 
 
+@media screen and (max-width: 400px)
+{
+    
+    .container_div
+{
+    overflow: hidden;
+    margin: 0px auto;
+    display: inline-block;
+    height: 500px;
+    
+    width:100%;
+   
+}
+    
+    
+    
+    
+    
+.part
+{
 
+    box-sizing:border-box;
+    width:30%;
+    height: 20%;
+    min-height: 150px;
+    background-color: antiquewhite;
+    display: inline-block;
+    padding: 0px;
+    margin-bottom: 5%;
+    vertical-align: top;
+    min-width: 150px;
+    margin: 4px 0px;
+    border: 0px solid black;
+   
+
+
+
+}   
+    
+    
+    
+    .part a
+    {
+         margin: 0px; 
+         font-size: 100%;
+        
+    }
+    
+    .part p
+    {
+         margin: 0px; 
+         font-size: 100%;
+        
+    }
+    
+    .part div
+    {
+         margin: 0px; 
+         font-size: 100%;
+    }
+    
+    
+    
+    
+    
+}
 
 
 
