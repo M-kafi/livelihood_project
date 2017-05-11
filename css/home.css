@@ -310,7 +310,7 @@ position: absolute;
 .secTwo_p
 {
    padding-left: 100px;
-   padding-right: 60px;
+   padding-right: 100px;
    
     color: snow;
     text-align: center;
@@ -326,6 +326,10 @@ position: absolute;
     
     
     
+    
+
+    
+    
     .secTwo_h
     {
         
@@ -334,11 +338,47 @@ position: absolute;
         
         
         
+        
     }
     
     .secTwo_p
     {
           font-size: 150%;
+        
+    }
+
+    
+    
+    
+}
+
+
+@media screen and (max-width: 400px)
+{
+    
+    
+    .secTwo_p
+{
+   padding-left: 10px;
+   padding-right: 10px;
+   
+    
+}
+    
+    
+    .secTwo_h
+    {
+        
+    margin-top: 50px;    
+   font-size: 140%;
+        
+        
+        
+    }
+    
+    .secTwo_p
+    {
+          font-size: 100%;
         
     }
 
@@ -360,7 +400,7 @@ position: absolute;
 #secThree
 {
     height:auto;
-    background: url("../images/third_section_background_large.jpg") no-repeat;
+    background: url("../images/background_large_livelihood.jpg") no-repeat;
     background-size: cover;
     width: 100%;
     text-align: center;
@@ -547,6 +587,48 @@ position: absolute;
 
 
 
+@media screen and (max-width: 400px)
+{
+    
+    
+     .secThree_h
+{
+      font-size: 130%;
+   
+    
+}
+    
+     .secThree_p_h
+    {
+        
+         font-size: 120%;
+        margin: 10px auto;
+        
+    }
+    
+    
+   .secThree_div2_p
+    {
+           font-size: 100%;
+        
+        
+    }
+    
+    .firstDiv_secThree
+    {
+        width: 50%;
+        
+    }
+    
+    .article_container_div2
+    {
+        width: 100%;
+    }
+
+    
+    
+    
+}
 
 
 
@@ -597,7 +679,7 @@ position: absolute;
 {
     
     width: 100%;
-    height: 100%;
+    height: auto;
     display: block;
     background-color: #f7f7f7;
     overflow: hidden;
@@ -626,7 +708,7 @@ position: absolute;
 {
     
    box-sizing: content-box;
-    width: 20%;
+    width: 33.33%;
     height: 700px;
     background-color: antiquewhite;
     display: inline-block;
@@ -652,7 +734,7 @@ position: absolute;
 .part_two
 {
     position: absolute;
-    left: 20%;
+    left: 33.33%;
     background-color: aqua;
       border-left: 5px solid white;
      border-right: 5px solid white;
@@ -667,7 +749,7 @@ position: absolute;
 .part_three
 {
     position: absolute;
-    left: 40%;
+    left: 66.66%;
       border-left: 5px solid white;
      border-right: 5px solid white;
      background: url("../images/project3.jpg");
@@ -731,6 +813,23 @@ position: absolute;
     
   
 }
+
+
+
+.column
+{
+    display: block;
+
+ background: rgba(191, 191, 191, 1);
+    
+    
+    font-family: 'Average Sans', sans-serif;
+    font-size: 25px;
+    margin: 0px;
+    padding: 10px;
+  
+}
+
 
 
 
@@ -1003,7 +1102,7 @@ position: absolute;
     
     display: block;
     height: 1000px;
-    
+    text-align: center;
     width: 100%;
     background: url("../images/fifth_sec_b.jpg") no-repeat ;
     background-size: cover;
@@ -1177,7 +1276,17 @@ position: absolute;
 footer
 {
     height: 100px;
-    background-color: aliceblue;
+    background-color: snow;
+     background-color: #f7f7f7;
+}
+
+
+#footer_address
+{
+    font-family: 'Average Sans', sans-serif;
+    font-size: 75%;
+    padding: 10px 10px 10px 20px;
+   
 }
 
 /*------- END of footer --------- */
