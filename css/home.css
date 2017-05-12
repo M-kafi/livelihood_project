@@ -257,6 +257,64 @@ position: absolute;
 
 /*--End of section one styles--*/
 
+
+
+
+
+
+
+/*------------------Sec_tech----------------------*/
+#sec_tech
+{
+    background: url("../images/robot.jpg");
+    display: block;
+    height:1500px;
+    background-attachment: fixed;
+    margin: 0px;
+    text-align: center;
+  
+}
+
+
+#tech_p
+{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.82);
+    height: 500px;
+    position: relative;
+    top:40%;
+    margin: 0px;
+    padding-top: 30px;
+    
+     font-family: 'Average Sans', sans-serif;
+    font-size: 150%;
+}
+
+
+#tech_p h4
+{
+    margin: 0px;
+     font-size: 250%;
+    
+}
+
+
+#first_div_tech
+{
+    color: darkgreen;
+}
+
+/*------END sec_tech--------*/
+
+
+
+
+
+
+
+
+
+
 /*------------------- section two style----------------------- */ 
 
 
@@ -1286,7 +1344,69 @@ footer
     font-family: 'Average Sans', sans-serif;
     font-size: 75%;
     padding: 10px 10px 10px 20px;
+    width: 400px;
+    display: inline-block;
+    font-weight: 500;
+    
+
    
+}
+
+#footer_contactDetails
+{
+    
+    font-family: 'Average Sans', sans-serif;
+    font-size: 75%;
+    padding: 10px 10px 10px 20px;
+    position: absolute;
+    right: 5px;
+    width: 500px;
+    display: inline-block;
+    text-align: right;
+    font-weight:500;
+}
+
+
+
+
+#footer_text
+{       
+   
+    height:25px;
+    
+    display: inline-block;
+    margin-bottom: 5px;
+   
+    
+}
+
+#facebook
+{
+    width:32px;
+    height: 40px;
+    background: url("../images/f.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+#twitter
+{
+    width:32px;
+    height: 40px;
+    background: url("../images/2.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+
+#linkedin
+{
+    width:32px;
+    height: 40px;
+    background: url("../images/instgrm.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
+    
 }
 
 /*------- END of footer --------- */
