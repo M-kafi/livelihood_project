@@ -124,6 +124,11 @@ header
     
 }
 
+nav a 
+{
+    cursor: pointer;
+}
+
 /*--End of navigation styles--*/
 
 
@@ -159,11 +164,19 @@ nav
 #secOne
 {
     height:100%;
-    background:url("../images/first_sec_large2.png") no-repeat fixed ;
+    background:url("../images/hodi_small.jpg") no-repeat fixed ;
     background-size:cover;
+  
     
  
 }
+#secOne a
+{
+    cursor:pointer;
+}
+
+
+
 
 
 .white
@@ -853,6 +866,7 @@ position: absolute;
     color: snow;
     background-color: rgba(7, 12, 14, 0.64);
     cursor: pointer;
+    text-decoration: none;
 }
 .projects_text_container:hover
 {

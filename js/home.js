@@ -7,6 +7,14 @@ $(document).ready(function(){
   
     
     
+    
+    
+    
+    
+    
+    
+    
+    
 
     
     
@@ -61,7 +69,6 @@ $(document).ready(function(){
     
     //--------------projects section------------
     
-   
     
     
         
@@ -138,6 +145,41 @@ else {
     
     
     
+    
+    
+    
+   
+    $("#first_link, #navIntro").click( function(){
+        
+    
+   
+        
+        $( "html, body").animate({
+            scrollTop: $("#tech_p").offset().top - 30
+            
+        },1000 );
+        
+       
+         
+        
+    } );
+    
+    
+    
+     $("#second_link").click( function(){
+        
+    
+   
+        
+        $( "html, body").animate({
+            scrollTop: $("#fifth_sec").offset().top 
+            
+        },1200 );
+         
+        
+    } );
+    
+    
 
 
 
@@ -164,3 +206,6 @@ else {
 
 
 //------END of changing the text in projects section -----
+
+
+
