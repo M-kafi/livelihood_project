@@ -13,9 +13,11 @@ main
  display:block;
  margin: 0px;
  padding: 0px;
- background-color:antiquewhite;   
+ background-color:antiquewhite; 
+    position: absolute;
+ 
+ 
 }
-
 
 
 
@@ -164,7 +166,7 @@ nav
 #secOne
 {
     height:100%;
-    background:url("../images/hodi_small.jpg") no-repeat fixed ;
+    background:url("../images/Soccerteam.JPG") no-repeat fixed ;
     background-size:cover;
   
     
@@ -281,7 +283,7 @@ position: absolute;
 {
     background: url("../images/robot.jpg");
     display: block;
-    height:1500px;
+    height:1600px;
     background-attachment: fixed;
     margin: 0px;
     text-align: center;
@@ -315,6 +317,29 @@ position: absolute;
 #first_div_tech
 {
     color: darkgreen;
+    
+}
+
+#humanVsRobot
+{
+    width:40%;
+    height: 20%;
+    background-size: contain;
+    margin:auto;
+    margin-bottom: 25px;
+    
+}
+
+#humanVsRobot img 
+{
+    width: 100%;
+    height: 100%;
+}
+
+#second_div_tech
+{
+ width:85%;
+ margin:auto;
 }
 
 /*------END sec_tech--------*/
