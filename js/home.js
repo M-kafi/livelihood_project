@@ -144,7 +144,19 @@ else {
  
     
     
+       
+    $("#map_img").hover( function(){
+        
     
+   
+        
+         $("#map_img").animate({
+           width : '+250px',
+           height: '+250px'
+            
+        },2000 );
+        
+    });
     
     
     
@@ -155,7 +167,7 @@ else {
    
         
         $( "html, body").animate({
-            scrollTop: $("#tech_p").offset().top - 30
+            scrollTop: $("#tech_p").offset().top 
             
         },1000 );
         
@@ -179,6 +191,20 @@ else {
         
     } );
     
+    
+    
+      $("#home_link").click( function(){
+        
+    
+   
+        
+        $( "html, body").animate({
+            scrollTop: $("#secOne").offset().top 
+            
+        },1200 );
+         
+        
+    } );
     
 
 

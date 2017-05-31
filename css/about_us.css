@@ -1,0 +1,276 @@
+html,body
+{
+    height: 100%;
+    margin: 0px;
+    padding: 0px; 
+    
+    
+}
+
+main
+{
+ height:100%;
+ display:block;
+ margin: 0px;
+ padding: 0px;
+ background-color:white; 
+    position: absolute;
+ 
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1025px)
+{
+    
+    
+    
+   *,h1,h2,h3,h4,h5,h6
+    {
+        
+        
+   font-size: 16px;
+        
+        
+        
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------- the logo style----------------------- */ 
+header
+{
+    display:block;
+    position: absolute;
+    top: 30px;
+    left: 75px;
+   
+    
+}
+
+#logo
+{
+    display: block;
+    
+  background: url("../images/large_logo.png") no-repeat  ;
+  
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--End logo styles--*/
+
+
+/*------------------- navigation style----------------------- */ 
+
+#burgerButton
+{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/three.png") no-repeat center  ;
+    background-size: cover;
+    position: fixed;
+    top:40px;
+    right:40px;
+    cursor: pointer;
+    z-index: 9;
+    
+}
+
+nav a 
+{
+    cursor: pointer;
+}
+
+/*--End of navigation styles--*/
+
+
+/*------------------- navigation bar styles----------------------- */ 
+nav a
+{
+    display: block;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Average Sans', sans-serif;
+
+    }
+
+nav
+{
+    padding-top: 10px;
+    display: block;
+    width: 200px;
+    position: fixed;
+    top:100px;
+    right: 50px;
+    background-color:#f2f2f2;
+    border-radius: 20px;
+    z-index: 9;
+    
+}
+
+
+/*--End of navigation styles--*/
+
+
+
+
+
+/*--------- First section ------------ */
+
+
+#first_section
+{
+    width:80%;
+    margin: 0px auto;
+    
+}
+
+#first_section img
+{
+    
+    width:100%;
+    
+}
+
+
+
+
+/*-------End of the First section------*/
+
+
+
+
+
+
+/*---------- footer -------- */
+
+footer
+{
+    height: 100px;
+    background-color: snow;
+     background-color: #f7f7f7;
+}
+
+
+#footer_address
+{
+    font-family: 'Average Sans', sans-serif;
+    font-size: 75%;
+    padding: 10px 10px 10px 20px;
+    width: 400px;
+    display: inline-block;
+    font-weight: 500;
+    
+
+   
+}
+
+#footer_contactDetails
+{
+    
+    font-family: 'Average Sans', sans-serif;
+    font-size: 75%;
+    padding: 10px 10px 10px 20px;
+    position: absolute;
+    right: 5px;
+    width: 500px;
+    display: inline-block;
+    text-align: right;
+    font-weight:500;
+}
+
+
+
+
+#footer_text
+{       
+   
+    height:25px;
+    
+    display: inline-block;
+    margin-bottom: 5px;
+   
+    
+}
+
+#facebook
+{
+    width:32px;
+    height: 40px;
+    background: url("../images/f.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+#twitter
+{
+    width:32px;
+    height: 40px;
+    background: url("../images/2.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+
+#linkedin
+{
+    width:32px;
+    height: 40px;
+    background: url("../images/instgrm.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
+    
+}
+
+/*------- END of footer --------- */

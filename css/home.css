@@ -283,7 +283,7 @@ position: absolute;
 {
     background: url("../images/robot.jpg");
     display: block;
-    height:1600px;
+    height:100%;
     background-attachment: fixed;
     margin: 0px;
     text-align: center;
@@ -295,14 +295,22 @@ position: absolute;
 {
     width: 100%;
     background: rgba(255, 255, 255, 0.82);
-    height: 500px;
-    position: relative;
-    top:40%;
+    height: 100%;
+   // position: relative;
+    //top:40%;
     margin: 0px;
     padding-top: 30px;
     
      font-family: 'Average Sans', sans-serif;
     font-size: 150%;
+}
+
+#reference
+{
+    font-size: 16px;
+    color: brown;
+    position:relative;
+    top: 10%;
 }
 
 
@@ -749,7 +757,7 @@ position: absolute;
 #a
 {
     font-family: 'Average Sans', sans-serif;
-     font-size: 60px;
+     font-size: 42px;
     margin-bottom: 20px;
     
 }
@@ -757,14 +765,14 @@ position: absolute;
 #b
 {
     font-family: 'Average Sans', sans-serif;
-     font-size: 60px;
+     font-size: 42px;
     margin-bottom: 20px;
 }
 
 #projects_p
 {
      font-family: 'Average Sans', sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     width: 80%;
     margin: 0px auto;
     padding-bottom: 40px;
@@ -916,10 +924,6 @@ position: absolute;
 .column
 {
     display: block;
-
- background: rgba(191, 191, 191, 1);
-    
-    
     font-family: 'Average Sans', sans-serif;
     font-size: 25px;
     margin: 0px;
