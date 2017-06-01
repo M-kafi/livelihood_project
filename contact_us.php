@@ -137,16 +137,34 @@ $note ="Your message has been submitted!";
                 
     </section>
             
-             <section id="contact_details" >
+         <section id="contact_details" >
             <p>
                 Email: hello@livelihoodproject.org<br />
                 Phone number: 647 - 687 - 5187 
              </p>
+                 
+                 
            
             
             
             
         </section>
+            
+            
+               
+            <section id="social_media" >
+           <span id ="social_media_title" >Social media:</span><br />
+           <a class="social_media_link" > <img class="social_media_img" src = "images/facebook.png" alt = "facebook"  />  </a>
+           <a  class="social_media_link"> <img class = "social_media_img" src = "images/facebook.png" alt = "twitter"  />  </a>
+           <a class="social_media_link" > <img class = "social_media_img" src ="images/facebook.png" alt = "instagram"  />  </a>
+                 
+                  Social media:<br /> 
+           
+            
+            
+            
+        </section>
+            
             
         
         </section>

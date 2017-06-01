@@ -156,6 +156,18 @@ else {
             
         },2000 );
         
+        
+        $("#map_img").mouseout( function(){ 
+        
+        $("#map_img").animate({
+           width : '150px',
+           height: '150px'
+            
+        },2000 );
+        
+        
+        });
+        
     });
     
     

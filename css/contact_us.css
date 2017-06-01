@@ -9,7 +9,7 @@ html,body
 
 main
 {
- height:100%;
+
  width: 100%;
  display:block;
  margin: 0px;
@@ -225,6 +225,7 @@ nav
 {
     display: block;
     overflow: hidden;
+    height: 500px;
 }
 
 #contact_details
@@ -232,6 +233,39 @@ nav
     width: 100%;
     font-size: 24px;
     
+}
+
+#social_media
+{
+    background-color:beige;
+    font-size: 0px;
+    height: 250px;
+}
+
+.social_media_link
+{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    width: 33.33%;
+    background-color: antiquewhite;
+    height: 200px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.social_media_img
+{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+#social_media_title
+{
+    font-size: 24px;
 }
 
 
