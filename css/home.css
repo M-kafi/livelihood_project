@@ -324,8 +324,12 @@ position: absolute;
 
 #first_div_tech
 {
-    color: darkgreen;
-    
+    //color: darkgreen;
+    color:black;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    padding: 0px 150px ;
 }
 
 #humanVsRobot
@@ -348,6 +352,7 @@ position: absolute;
 {
  width:85%;
  margin:auto;
+    font-size: 22px;
 }
 
 /*------END sec_tech--------*/

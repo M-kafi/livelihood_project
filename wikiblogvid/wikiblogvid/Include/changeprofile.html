@@ -1,0 +1,131 @@
+<form method="POST" action="" autocomplete="off">
+<div class="divPage">
+	<div class="divLeft">
+		<p>
+		<img src="../images/blog.png" alt="OOP Image"/>
+		</p>
+	</div>
+	<div class="divRight">	        
+		<div class="username">
+			<div class="usernametext">
+			First Name
+			</div>
+			<div class="usernameinput">
+				<input name="first" id="first" type="text"  value="<?php echo $fname; ?>"/>
+				<div class="errorStar">
+					<?php if(isset($errors['first'])) echo $errors['first'];?>				
+				</div>
+			</div>
+		</div>	
+<br />
+		<div class="username">
+			<div class="usernametext">
+			Last Name
+			</div>
+			<div class="usernameinput">
+				<input name="last" id="last" type="text"  value="<?php echo $lname; ?>"/>
+				<div class="errorStar">
+					<?php if(isset($errors['last'])) echo $errors['last'];?>				
+				</div>
+			</div>
+		</div>	
+		<br />
+		<div class="username">
+			<div class="usernametext">
+			User Name
+			</div>
+			<div class="usernameinput">
+				<input name="username" id="username" type="text"  value="<?php echo $username; ?>"/>
+				<div class="errorStar">
+					<?php if(isset($errors['username'])) echo $errors['username'];?>				
+				</div>
+			</div>
+		</div>	
+<br />	
+		<div class="username">
+			<div class="usernametext">
+			Email
+			</div>
+			<div class="usernameinput">
+				<input name="email" id="email" type="text"  value="<?php echo $email; ?>"/>
+				<div class="errorStar">
+					<?php if(isset($errors['email'])) echo $errors['email'];?>				
+				</div>
+			</div>
+		</div>
+		<br />				
+		
+					
+		
+		<br /><br />
+		
+		
+		
+		<div class = "secrect_question" >
+		
+		<div class="secrect_question_text">
+			Select secrect question
+			</div>
+		
+		<div class="errorStar">
+					<?php if(isset($errors['secrect_question'])) echo $errors['secrect_question'];?>				
+				</div>
+				
+				
+		<select  name="secrect_question"  class = "secrect_question_input"  >  
+		
+				
+		
+					<option value="">Select</option>					    
+						<?php foreach($questions_rows as $question):?>						
+							<option value ="<?php echo $question['questionid'] ?>" <?php if($secrect_question == $question['questionid']) echo 'selected="selected"' ?>><?php echo $question['question']?></option>							
+					<?php endforeach;?>		
+				</select>
+				
+				
+		
+		
+		
+		</div>
+		
+		<br />
+		<br/>
+		
+		<div class="secrect_answer">
+			<div class="secret_answer_text">
+			 Answer
+			</div>
+			<div class="secrect_answer_input">
+				<input name="secrect_answer" id="secrect_answer" type="text" value="<?php echo $secrect_answer; ?>" />
+				<div class="errorStar">
+					<?php if(isset($errors['secrect_answer'])) echo $errors['secrect_answer'];?>				
+				</div>
+			</div>
+		</div>
+		
+		<br /><br />
+		
+		
+		<div class="divCenter">
+		    <div class="errorStar">
+				<?php if(isset($msg)) echo $msg;?>						
+			</div>
+			<br />			
+			<input type ="submit" name="change" id="create" value ="Change Profile"/>			
+			&nbsp;
+			
+			
+		</div>
+		<br />
+		
+		
+	
+		
+		
+	
+		
+		
+		
+	</div>
+</div>
+</form>

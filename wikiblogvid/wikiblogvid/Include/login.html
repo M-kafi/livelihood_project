@@ -1,0 +1,56 @@
+<form method="POST" action="" autocomplete="off">
+<div class="divPage">
+	<div class="divLeft">
+		<p>
+		<img src="../images/blog.png" alt="Blog Image"/>
+		</p>
+	</div>
+	<div class="divRight">	      
+		
+<br /><br /><br /><br /><br />
+		
+
+		<div class="username">
+			<div class="usernametext">
+			Username
+			</div>
+			<div class="usernameinput">
+				<input name="email" id="email" type="text"  value="<?php echo $username; ?>"/>
+				<div class="errorStar">
+					<?php if(isset($errors['username'])) echo $errors['username'];?>				
+				</div>
+			</div>
+		</div>
+		<br />				
+		<div class="username">
+			<div class="usernametext">
+			Password
+			</div>
+			<div class="usernameinput">
+				<input name="pswd" id="pswd" type="password" />
+				<div class="errorStar">
+					<?php if(isset($errors['pswd'])) echo $errors['pswd'];?>				
+				</div>
+			</div>
+		</div>
+		
+		<br /><br /><br /><br /><br />
+		<div class="divCenter">
+		    <div class="errorStar">
+				<?php if(isset($msg)) echo $msg;?>						
+			</div>
+			<br />
+			<input type ="submit" name="login" id="login" value ="Login"/>	
+	
+		</div>
+		<br />
+	
+		
+		
+	
+		
+		
+		
+	</div>
+</div>
+</form>

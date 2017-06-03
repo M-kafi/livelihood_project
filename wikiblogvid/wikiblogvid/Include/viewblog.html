@@ -1,0 +1,72 @@
+<form method="POST" action="" autocomplete="off">
+<div class="divPage">
+	View Blog <br />
+	
+	<label class="rowtextlabelright">Select subject</label>
+	
+	&nbsp;
+				<select  name="subject"  onchange ="this.form.submit();">  
+					<option value="">Select</option>					    
+						<?php foreach($subjects_rows as $subject):?>						
+							<option value ="<?php echo $subject['subjectid'] ?>" <?php if($subject_selected == $subject['subjectid']) echo 'selected="selected"' ?>><?php echo $subject['title']?></option>							
+					<?php endforeach;?>		
+				</select>
+				
+				<br />
+				
+				
+				
+	<label class="rowtextlabelright">Select title</label>
+	
+	&nbsp;
+				<select name="titles"    >
+				
+				<option value="" >Select</option>
+				<?php foreach($titles_rows as $title_row):?>						
+							<option value ="<?php echo $title_row['blogid'] ?>" <?php if($title_selected == $title_row['blogid']) echo 'selected="selected"' ?>><?php echo $title_row['title']?></option>							
+					<?php endforeach;?>	
+
+				
+				
+				</select>
+				<input  id="button" type="submit" name="view" value="view" />
+				
+				<br />
+				<br />
+				
+				<label class="rowtextlabel2" >User</label>
+				<input  type="text"  name ="user" value="<?php echo $user; ?>"  />
+				
+			&nbsp;
+				
+				<label class="rowtextlabel2"  >Date</label>
+				<input type="text"  name ="date" value="<?php echo $date; ?>"  />
+				
+				<br />
+				<br />
+					<label class="rowtextlabel2"  >Blog:</label><br />
+				<input id="blog" type="text" name="blog"  value="<?php echo $blog; ?>"  />
+				
+				
+				
+				<input type="submit"  value="Add Comment"  />
+				<br />
+				<br />
+				<label class="rowtextlabel2"  >Comments:</label><br />
+				
+			    <?php if( $display_comments == 1 )
+				{ 
+				foreach( $comments_rows as $comment ){ ?>
+					
+					<input id="comment" type="text" value="<?php echo $comment[0]; ?>"  /><br/><br/>
+				
+				
+				<?php } }?>
+				
+	
+				
+	
+	
+	
+</div>
+</form>

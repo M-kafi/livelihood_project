@@ -181,6 +181,40 @@ nav
     
 }
 
+
+.input_a
+{
+    width:250px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid gray ;
+    margin: 0px 0px 3px 0px;
+    
+}
+
+.input_b
+{
+    width:510px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid gray ;
+    margin: 0px 0px 3px 0px;
+    
+}
+
+
+.input_c
+{
+    width:510px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid gray ;
+    margin: 0px 0px 3px 0px;
+    
+}
+
+
+
 #header_text
 {
     font-family: 'Average Sans', sans-serif;
@@ -190,16 +224,18 @@ nav
 
 #contact_form
 {
-    width:400px;
+    width:570px;
     display: block;
+    margin-left: 100px;
     float:left;
+    
 }
 
 
 #directions
 {
     background-color: aliceblue;
-    float:right;
+    float:left;
     width:250px;
     display: block;
     margin-top: 50px;
@@ -214,6 +250,7 @@ nav
     width: 150px;
     height: 150px;
     background-color: antiquewhite;
+    background: url("../images/screenshot-www.google.ca%202017-06-01%2023-02-23.png") no-repeat center;
     margin: 10px auto;
     border-radius: 100px;
     position: static;
@@ -231,13 +268,13 @@ nav
 #contact_details
 {
     width: 100%;
-    font-size: 24px;
+    font-size: 16px;
     
 }
 
 #social_media
 {
-    background-color:beige;
+    background-color:aliceblue;
     font-size: 0px;
     height: 250px;
 }
@@ -248,7 +285,7 @@ nav
     padding: 0px;
     display: inline-block;
     width: 33.33%;
-    background-color: antiquewhite;
+    background-color: aliceblue;
     height: 200px;
     font-size: 16px;
     text-align: center;
@@ -266,6 +303,7 @@ nav
 #social_media_title
 {
     font-size: 24px;
+    font-family: 'Oswald', sans-serif;
 }
 
 

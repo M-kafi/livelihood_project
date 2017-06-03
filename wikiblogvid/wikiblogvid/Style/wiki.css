@@ -1,0 +1,476 @@
+body
+{
+	background-color:white;
+}
+h2
+{
+	width:468px;
+	text-align:right;	
+}
+h3
+{
+	width:235px;
+	text-align:left;
+	margin-left:46px;
+}
+.divbox
+{
+	border-style:solid;
+	margin-bottom:16px;
+	height:345px;	
+	margin-top:4px;
+}
+
+.orderdropdown
+{
+	width:315px;
+	float:left;
+	
+}
+.tablecolumn
+{
+	width:140px;
+	text-align:left;
+}
+.tablecolumnlarge
+{
+	width:160px;
+	text-align:left;
+}
+.divLeft
+{
+	float:left;
+	background-color:white;
+	width:400px;
+	padding-left:4px;
+	padding-right:4px;
+	color: black;	
+	text-align:center;
+}
+.divRight
+{
+	float:left;
+	background-color:white;
+	padding-left:4px;
+	padding-right:4px;
+	color: black;	
+	width:544px;
+}
+.alignright
+{
+	text-align:right;
+}
+.headingleft
+{
+	background-color:grey;
+	color:white;
+	height:23px;
+	text-align:center;
+	padding-top:2px;
+}
+select {
+   background: transparent;
+   width: 160px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 29px;   
+   }
+.texttolabel
+{
+outline:none; 
+border:none; 
+border-style: none; 
+}
+.logoutbanner
+{
+	text-align:center;
+	font-size: 2em;
+	background-color: white;
+	color:Black;	
+}
+.divcolumnheader
+{
+	
+	float:left;
+	width:195px;
+	text-align:left;
+	margin-right:23px;
+	margin-left:12px;
+	font-weight:600;
+}
+.divcolumn
+{
+	
+	float:left;
+	width:195px;
+	text-align:left;
+	margin-right:23px;
+	margin-left:12px;
+}
+.headingright
+{
+	background-color:Blue;
+	color:White;
+	height:23px;
+	text-align:center;
+	padding-top:2px;
+}
+.loginbutton
+{
+	text-align:center;
+	margin-top:6px;
+	margin-bottom:5px;
+}
+
+.createprofileheading
+{
+	background-color:beige;
+	color:white;
+	height:23px;
+	text-align:center;
+	padding-top:2px;
+	font-weight:700;
+	margin-top:47px;
+}
+.divPage
+{
+	width:1024px;
+	min-height:530px;
+	margin-top: 12px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+}
+.anchorformat
+{
+	width:160px;
+	float:left;
+}
+.pformat
+{
+	margin-top: 48px;
+	font-size:1.1em;
+	color:black;
+	font-weight:600;
+}
+.header
+{
+	width:960px;
+	height:85px;	
+	background-image:url(../Images/banner.png);
+	background-repeat: no-repeat;
+}
+.headerText
+{
+	text-align:center;
+	font-size:larger;
+	color:red;
+	font-weight:900;
+	padding-top:10x;
+}
+
+.navbar
+{	
+	color:blue;
+	margin-top:8px;
+	width:960px;
+	height:25px;
+
+/*	background-repeat: repeat-x */ /*The background image will be repeated only horizontally */
+}
+
+.navbutton a
+{
+	float:left;
+	width: 140px;
+	height:25px;
+	line-height:22px;
+	font-family:calbri;
+	font-size: 16px;
+	color:black;
+	font-weight:700;
+	text-align:center;
+	padding-left:3px;
+	
+}
+.username
+{
+	margin-top:23px;
+	text-align:left;
+	padding-left:135px;	
+	color:black;
+	font-size:1.3em
+}
+.usernametext
+{
+	margin-right:6px;
+	float:left;
+	width: 125px;
+	color:blue;
+	text-align:right;	
+}
+.usernameinput
+{
+	float:left;
+	width:240px;
+}
+
+
+.secrect_question
+{
+	margin-top:23px;
+	text-align:left;
+	padding-left:135px;	
+	color:black;
+	font-size:1.3em
+}
+
+
+.secrect_question_text
+{
+	margin-right:0px;
+	
+	width: 340px;
+	color:blue;
+	text-align:center;	
+}
+
+.secrect_question_input
+{
+	float:left;
+	width:340px;
+}
+
+
+.secrect_answer
+{
+	margin-top:23px;
+	text-align:left;
+	padding-left:135px;	
+	color:black;
+	font-size:1.3em
+}
+
+
+.secret_answer_text
+{
+	margin-right:6px;
+	float:left;
+	width: 125px;
+	color:blue;
+	text-align:right;	
+}
+
+.navbutton a:hover
+{
+	float:left;
+	width: 140px;
+	height:25px;
+	line-height:22px;
+	font-family:calibri;
+	font-size: 16px;
+	color:blue;
+	font-weight: 700;
+	text-align:center;	
+	background-repeat: repeat-x;
+	padding-left:3px;
+}
+
+.footer
+{
+width:960px;
+	height:85px;
+	color:black;
+	font-weight:900;	
+	text-align:center;
+	text-transform:uppercase;	
+	background-image:url(../Images/footer.png);
+	background-repeat: no-repeat;
+}
+
+.bodyContent
+{	
+	width:960px;
+	min-height: 525px;
+	font-family: Times New Roman;
+	font-size:1.1em;
+	color:black;
+	margin-left:53px;
+	margin-right:24px;
+	
+}
+.row
+{
+	text-align:left;
+	width:960px;
+	margin-top:6px;
+	margin-bottom:9px;
+}
+
+.rowright
+{
+	text-align:right;
+	width:960px;
+	margin-top:6px;
+	margin-bottom:9px;
+}
+.rowtextlabel
+{
+	float:left;
+	width:95px;
+	color:Darkblue;
+	text-align:right;
+	margin-right:3px;
+	font-size:1.2em;
+	margin-left:38px;
+}
+.rowtextlabel2
+{
+	
+	width:95px;
+	color:Darkblue;
+	text-align:right;
+	margin-right:3px;
+	font-size:1.2em;
+	margin-left:38px;
+}
+
+.rowtextlabellarge
+{
+	float:left;
+	width:235px;
+	color:Darkblue;
+	text-align:right;
+	margin-right:3px;
+	font-size:1.2em;
+	margin-left:38px;
+}
+
+.largedropdown
+{
+	float:left;
+	width:435px;	
+	margin-right:3px;	
+	margin-left:38px;
+}
+.rowdrop
+{
+	float:left;
+	width:195px;
+	color:Darkblue;
+	text-align:left;
+	margin-right:3px;
+	font-size:1.2em;
+	margin-left:38px;
+}
+.rowtextlabelright
+{
+	float:left;
+	width:115px;
+	color:Darkblue;
+	text-align:right;
+	margin-right:16px;
+	font-size:1.2em;
+}
+.rowinput
+{
+	float:left;
+	width:220px;
+	text-align:left;
+	margin-left:7px;
+}
+
+.rowinputsmall
+{
+	float:left;
+	width:60px;
+	text-align:left;
+	margin-left:7px;
+}
+.rowinputmed
+{
+	float:left;
+	width:125px;
+	text-align:left;
+	margin-left:7px;
+}
+.rowinputemail
+{
+	float:left;
+	width:582px;
+	text-align:left;
+	margin-left:7px;
+}
+.divCenter
+{
+	text-align:right;
+	width:495px;	
+}
+.button
+{
+	margin-top:3px;
+	margin-left:35px;
+	margin-right:5px;
+	background-color:lightgrey;
+	color:black;
+	float:left;
+}
+.checkoutbutton
+{
+	margin-left:84px;
+}
+
+.contactus
+{
+	font-size: 2.2em;
+	margin-top:97px;
+	text-align:center;
+	margin-bottom:46px;
+}
+.errorStar
+{
+	color:red;
+	float:left;
+}
+.taxesdisplay
+{
+	width:960px;
+	text-align:right;	
+}
+.dark
+{
+	float:left;
+	font-weight:700;
+	margin-right:14px;
+}
+.light
+{
+	float:left;
+	font-weight:300;
+	margin-right:36px;
+}
+
+#button
+{
+	padding:5px 30px;
+	
+}
+
+
+#blog
+{
+	width: 500px;
+	height: 200px;
+	
+}
+
+#comment
+{
+	width: 500px;
+	height: 100px;
+	
+}
+

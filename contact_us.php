@@ -55,7 +55,7 @@ $note ="Your message has been submitted!";
     <link href="https://fonts.googleapis.com/css?family=Average+Sans" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Asap|Signika|Tenali+Ramakrishna" rel="stylesheet">
-   
+   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
     
     <!-- css ends here -->
     
@@ -103,16 +103,17 @@ $note ="Your message has been submitted!";
             
             <form action="" method="post" >
             
-            <input type = "text" name="name" placeholder = "Name... "  />
+            <input type = "text" name="name" placeholder = "Name... " class="input_a" />
+            <input type ="tel" name="phone" placeholder = "Phone..."  class="input_a" /> 
+            
+            <br />
+                
+            <input type="email" name="email" placeholder = "Email..." class="input_b" />
             <br />
             <br />
-            <input type="email" name="email" placeholder = "Email..."  />
-            <br />
-            <br />
-            <input type ="tel" name="phone" placeholder = "Phone..."   />  
-            <br />
-            <br />
-            <textarea name="message" rows="5" cols="50" placeholder="Message..." ></textarea>
+             
+            
+            <textarea name="message" rows="5" cols="50" placeholder="Message..."  class ="input_c" ></textarea>
             <br />
             <br />
             <input type="submit" value = "Send" name="send"  />
@@ -154,9 +155,9 @@ $note ="Your message has been submitted!";
                
             <section id="social_media" >
            <span id ="social_media_title" >Social media:</span><br />
-           <a class="social_media_link" > <img class="social_media_img" src = "images/facebook.png" alt = "facebook"  />  </a>
-           <a  class="social_media_link"> <img class = "social_media_img" src = "images/facebook.png" alt = "twitter"  />  </a>
-           <a class="social_media_link" > <img class = "social_media_img" src ="images/facebook.png" alt = "instagram"  />  </a>
+           <a class="social_media_link" > <img class="social_media_img" src = "images/Fb.png" alt = "facebook"  />  </a>
+           <a  class="social_media_link"> <img class = "social_media_img" src = "images/Tw.png" alt = "twitter"  />  </a>
+           <a class="social_media_link" > <img class = "social_media_img" src ="images/In.png" alt = "instagram"  />  </a>
                  
                   Social media:<br /> 
            
@@ -173,33 +174,7 @@ $note ="Your message has been submitted!";
             
               
  <!--------END of fifth section  ---------->
-            <footer   >
-                
-                
-                <aside id="footer_address" >
-                
-               LIVELIHOOD PROJECT INC.<br />
-                254 AUGUSTA AVENUE,<br />
-                TORONTO, ONTARIO M5T 2L7<br />
-                    <a>maps</a>
-                
-                
-                </aside>
-                
-                 <aside id="footer_contactDetails" >
-                
-              <a id ="footer_text" >@LIVELIHOODCAN</a><br />
-               <a id="facebook" ></a><a id="twitter"  ></a><a id="linkedin" ></a>
-                    
-                
-                
-                </aside>
-                
-            
-            
-            
-            
-            </footer>
+          
             
 <!------------ Footer -------------- >
 
