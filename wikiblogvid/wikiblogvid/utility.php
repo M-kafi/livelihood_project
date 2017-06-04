@@ -211,6 +211,37 @@
 			
 		}
 		
+		
+		
+		
+		public function verify_correct_email( $email )
+		{
+			global $connection, $retrieved, $userid ,$email_row ;
+			
+			$sql = " call verify_correct_email('$email') ";
+			$connection->next_result();
+			$retrieved = $connection -> query( $sql );
+			
+			if ( $retrieved -> num_rows )
+			{
+			
+			$email_row = $retrieved -> fetch_row();
+			
+			 $userid =  $email_row[0] ; 
+			return 1;
+			
+			}
+			else
+			{
+				return 0;
+				
+			}
+			
+			
+			
+		}
+		
+		
 			public function load_info()
 		{
 			global $connection, $fname, $lname, $username, $email, $pswd, $msg,
