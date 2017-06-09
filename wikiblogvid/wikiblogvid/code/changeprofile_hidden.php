@@ -274,26 +274,6 @@
 		$confirm = "";
 	}
 	
-	/*
-	////////////////////////////////////////////////*
-	
-	$fname = "";
-	$lname = "";
-	$username ="";
-	$email = "";
-	$pswd = "";
-	$msg = "";
-	$confirm = "";
-	
-	if(isset($_POST['create']))
-	{	    
-	}	
-	elseif (isset($_POST['clear']))
-	{
-	
-	}
-
-*/ 
 
 	
 ?>

@@ -123,9 +123,29 @@
 			}
 		}
 		
+		// add a new blog
+		public function add_blog($subject_selected, $title, $blog, $user_id)
+		{
+			global $connection, $retreived;
+			$sql = "call add_blog($subject_selected, '$title', '$blog', $user_id)";
+			$connection ->next_result();
+			 if ( $retreived = $connection->query($sql) )
+			 {
+				 return  1;
+			 }
+			 else
+			 {
+				 return 0;
+				 
+			 }
+			
+			
+			
+		}
 		
 		
 		
+		// will load the subject in the select input 
 		public	function load_subjects()
 		{
 			global $connection, $subjects_rows, $retrieved;
@@ -346,7 +366,7 @@
 					
 					$blog = $content_row[0];
 					$date = $content_row[1];
-					$user = $content_row[4]." ".$content_row[4];
+					$user = $content_row[4]." ".$content_row[5];
 					
 					$sql = " call load_comments( $title_selected ) ";
 					$connection -> next_result();
@@ -368,6 +388,74 @@
 			}
 			
 		}
+		
+		
+		public function add_new_comment()
+		{
+			global $utilities, $comment, $user, $blog_id, $subject_id, $connection, $retreived ,$content ;
+			
+			$sql =" call add_new_comment( $user, '$comment', $blog_id ) ";
+			$connection -> next_result();
+			
+			if ( $retrieved = $connection -> query( $sql ) )
+			{
+				
+				return 1;
+			}
+			else
+			{
+				
+				return 0;
+			}
+			
+			
+			
+			
+		}
+		
+		
+		public function load_content_for_comment()
+		{
+			
+			global $user, $blog_id, $subject_id, $connection, $retreived ,$content,
+			$user_name,$subject, $title, $blog, $date;
+			
+			$sql = "call  load_content_for_comment( $user, $blog_id, $subject_id )";
+			$connection -> next_result();
+			
+			$retrieved = $connection -> query( $sql );
+			
+			if( $retrieved ->num_rows )
+					{
+						$content = $retrieved -> fetch_all();
+						
+						
+						
+					 $user_name = $content[0][0]." ".$content[0][1];
+					 $subject = $content[0][4];
+					 $title = $content[0][2];
+					 $blog  = $content[0][3];
+					 
+					 return 1;
+						
+					}
+					else
+					{
+						return 0;
+					}
+			
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		public function load_questions()

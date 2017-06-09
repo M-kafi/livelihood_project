@@ -16,8 +16,7 @@ main
  padding: 0px;
  background-color:white; 
     position: absolute;
- 
- 
+
 }
 
 
@@ -177,14 +176,15 @@ nav
     margin: 0px auto;
     margin-top: 200px;
     font-family: 'Average Sans', sans-serif;
-    
+    text-align: center;
+    color: #303030;
     
 }
 
 
 .input_a
 {
-    width:250px;
+    width:248.5px;
     padding: 3px;
     border-radius: 5px;
     border: 1px solid gray ;
@@ -217,16 +217,21 @@ nav
 
 #header_text
 {
-    font-family: 'Average Sans', sans-serif;
-    font-size: 36px;
-    
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    text-align: left;
+    margin-left: 24px;
+  //  font-family: 'PT Sans', sans-serif;
+    font-weight: 500;
+    margin-top: 90px;
+    color: #303030;
 }
 
 #contact_form
 {
     width:570px;
     display: block;
-    margin-left: 100px;
+    margin-left: 60px;
     float:left;
     
 }
@@ -234,7 +239,7 @@ nav
 
 #directions
 {
-    background-color: aliceblue;
+    background-color: #8fd2f0;
     float:left;
     width:250px;
     display: block;
@@ -242,6 +247,8 @@ nav
     padding: 15px;
     font-size: 24px;
     border-radius: 25px;
+   // color: #303030;
+    color: white;
 }
 
 #map_img
@@ -255,6 +262,7 @@ nav
     border-radius: 100px;
     position: static;
     vertical-align: middle;
+    cursor: pointer;
     
 }
 
@@ -262,21 +270,28 @@ nav
 {
     display: block;
     overflow: hidden;
-    height: 500px;
+    height: 700px;
+    margin: 0px auto;
+    width: 1000px;
+  //  background-color: red;
 }
 
-#contact_details
+.contact_details
 {
     width: 100%;
-    font-size: 16px;
+    font-size: 12px;
+    font-family: 'PT Sans', sans-serif;
+    
     
 }
 
 #social_media
 {
-    background-color:aliceblue;
+    //background-color:red;
     font-size: 0px;
-    height: 250px;
+    height: 350px;
+    width: 900px;
+    margin: 0 auto;
 }
 
 .social_media_link
@@ -285,7 +300,7 @@ nav
     padding: 0px;
     display: inline-block;
     width: 33.33%;
-    background-color: aliceblue;
+  //  background-color: aliceblue;
     height: 200px;
     font-size: 16px;
     text-align: center;
@@ -298,13 +313,71 @@ nav
     border-radius: 100px;
     width: 200px;
     height: 200px;
+    cursor: pointer;
 }
+
+.button
+{
+    width: 80px;
+    height:26px;
+    background: url("../images/Send.png") no-repeat;
+    background-size: cover;
+    border: 0px solid white;
+    cursor: pointer;
+    
+}
+
+
+
+.header_p
+{
+    
+     font-family: 'Oswald', sans-serif;
+     font-size: 26px;
+    
+   
+  //  font-family: 'PT Sans', sans-serif;
+    font-weight: 500;
+    
+    
+}
+
+
 
 #social_media_title
 {
     font-size: 24px;
     font-family: 'Oswald', sans-serif;
+    padding-bottom: 25px;
 }
+
+.directions_text_container
+{
+    
+    display: block;
+    text-align: left;
+    width: 150px;
+    margin: 0px auto;
+    
+    
+}
+
+.mainLoginInput::-webkit-input-placeholder {
+  font-family: 'PT Sans', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.mainLoginInput:-ms-input-placeholder {
+  font-family: 'PT Sans', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.mainLoginInput:-moz-placeholder {
+  font-family: 'PT Sans', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.mainLoginInput::-moz-placeholder {
+  font-family: 'PT Sans', sans-serif, Arial, Helvetica, sans-serif;
+}
+
 
 
 /*-------End of the First section------*/

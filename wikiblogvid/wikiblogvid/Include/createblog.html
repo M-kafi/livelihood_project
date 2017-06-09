@@ -1,5 +1,61 @@
 <form method="POST" action="" autocomplete="off">
 <div class="divPage">
-	create blog
+	View Blog <br />
+	<span class="errorStar" > <?php echo $msg;?></span>
+	<br />
+	
+	<label class="rowtextlabelright">Select subject</label>
+	
+	&nbsp;
+	
+		
+				<select  name="subject"  >  
+					<option value="">Select</option>					    
+						<?php foreach($subjects_rows as $subject):?>						
+							<option value ="<?php echo $subject['subjectid'] ?>" <?php if($subject_selected == $subject['subjectid']) echo 'selected="selected"' ?>><?php echo $subject['title']?></option>							
+					<?php endforeach;?>		
+				</select>
+				
+				<span class="errorStar" > <?php if(isset($errors['subject'])) echo $errors['subject'];?></span>				
+			
+			
+				
+				<br />
+				
+				
+				
+	<label class="rowtextlabelright">Enter the title: </label>
+	
+	&nbsp;
+				<input type="text" name="title" value="<?php echo $title; ?>"  />
+				<span class="errorStar" > <?php if(isset($errors['title'])) echo $errors['title'];?></span>	
+				<br />
+				<br />
+				
+				<label class="rowtextlabel2" >User</label>
+				<input  type="text"  name ="user" value="<?php echo $user; ?>" readonly  />
+				<span class="errorStar" > <?php if(isset($errors['user'])) echo $errors['user'];?></span>	
+			&nbsp;
+				
+				<label class="rowtextlabel2"  >Date</label>
+				<input type="text"  name ="date" value="<?php echo $date; ?>" readonly />
+				<span style="color:red; " > <?php if(isset($errors['date'])) echo $errors['date'];?></span>	
+				<br />
+				<br />
+					<label class="rowtextlabel2"  >Blog:</label><br />
+				<textarea id="blog"  name="blog" ><?php echo $blog; ?></textarea>
+				<span class="errorStar" > <?php if(isset($errors['blog'])) echo $errors['blog'];?></span>	
+				<br />
+				<br />
+				
+				<input type="submit" name="save" value="Save" />
+				
+				<input type="submit" name="cancel" value="Cancel" />
+			
+	
+				
+	
+	
+	
 </div>
 </form>

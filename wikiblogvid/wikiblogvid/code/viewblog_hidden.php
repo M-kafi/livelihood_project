@@ -1,5 +1,5 @@
 <?php	
-
+session_start();
 include('../data/dbfile.php');
 include('../utility.php');
 $utilities = new myfunctions;
@@ -18,7 +18,7 @@ $utilities = new myfunctions;
 	$content_row   = "";
 	$comments_rows = "";
 	$display_comments = 0;
-	
+	$show_add_comment = 0;
 	
 	
 	
@@ -42,8 +42,23 @@ $utilities = new myfunctions;
 			
 			$utilities -> load_content();
 			
+			if ( $user )
+			{
+			
+			$show_add_comment = 1;
+			
+			$blog_id = $_POST['titles'];
 			
 			
+			$_SESSION['blog_id'] = $blog_id ;
+			$_SESSION['subject_id'] = $subject_selected;
+			
+			
+			
+			
+			
+			
+			}
 			
 			
 			
@@ -62,14 +77,6 @@ $utilities = new myfunctions;
 	
 $utilities->load_subjects();
 
-	$fname = "";
-	$lname = "";
-	$username ="";
-	$email = "";
-	$pswd = "";
-	$msg = "";
-	$confirm = ""; 
-	
 	
 	
 	

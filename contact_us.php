@@ -103,28 +103,46 @@ $note ="Your message has been submitted!";
             
             <form action="" method="post" >
             
-            <input type = "text" name="name" placeholder = "Name... " class="input_a" />
-            <input type ="tel" name="phone" placeholder = "Phone..."  class="input_a" /> 
+            <input type = "text" name="name" placeholder = "Name... " class="input_a mainLoginInput " />
+            <input type ="tel" name="phone" placeholder = "Phone..."  class="input_a mainLoginInput " /> 
             
             <br />
                 
-            <input type="email" name="email" placeholder = "Email..." class="input_b" />
+            <input type="email" name="email" placeholder = "Email..." class="input_b mainLoginInput " />
             <br />
             <br />
              
             
-            <textarea name="message" rows="5" cols="50" placeholder="Message..."  class ="input_c" ></textarea>
+            <textarea name="message" rows="5" cols="50" placeholder="Message..."  class ="input_c mainLoginInput " ></textarea>
             <br />
             <br />
-            <input type="submit" value = "Send" name="send"  />
+                <button class="button" type="submit" value = "Send" name="send" > </button>
             
             </form>
             
         </section>
             
         <section id="directions" >
-            <p>visit us at Livelihood cafe 25, Augusta . ONtario</p>
-            <p>Directions: </p>
+            
+             <div class="directions_text_container" >
+            <p class="header_p" >Contact us: </p>
+            
+            
+             <section class="contact_details" >
+                <p>
+                    hello@livelihoodproject.org<br /><br />
+                     647 - 687 - 5187 
+                 </p>
+            </section>
+            <p class="contact_details" >254 Augusta Avenue,<br /> Toronto, ON, M5T 2L7</p>
+            
+            </div>
+            
+            
+            
+            
+           
+            
             
             <div id = "map_img" >
             
@@ -138,28 +156,17 @@ $note ="Your message has been submitted!";
                 
     </section>
             
-         <section id="contact_details" >
-            <p>
-                Email: hello@livelihoodproject.org<br />
-                Phone number: 647 - 687 - 5187 
-             </p>
-                 
-                 
-           
-            
-            
-            
-        </section>
+      
             
             
                
             <section id="social_media" >
-           <span id ="social_media_title" >Social media:</span><br />
+           <div id ="social_media_title" >Follow us:</div><br /><br />
            <a class="social_media_link" > <img class="social_media_img" src = "images/Fb.png" alt = "facebook"  />  </a>
            <a  class="social_media_link"> <img class = "social_media_img" src = "images/Tw.png" alt = "twitter"  />  </a>
            <a class="social_media_link" > <img class = "social_media_img" src ="images/In.png" alt = "instagram"  />  </a>
                  
-                  Social media:<br /> 
+            
            
             
             

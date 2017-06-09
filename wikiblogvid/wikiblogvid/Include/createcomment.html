@@ -1,5 +1,56 @@
 <form method="POST" action="" autocomplete="off">
 <div class="divPage">
-	create comment
+	create comment   <br /> <span style =" color:red; "  > <?php echo $msg; ?></span>
+	<br /><br />
+	<label class="rowtextlabelright">Subject</label>
+	
+	&nbsp;
+			<input type = "text" name = "subject" value="<?php echo $subject; ?>" />	
+				<br />
+				<br />
+				
+				
+	<label class="rowtextlabelright">Title</label>
+	
+	&nbsp;
+
+				<input  type="text" name="title" value="<?php echo $title; ?>" />
+				
+				<br />
+				<br />
+				
+				<label class="rowtextlabel2" >User</label>
+				<input  type="text"  name ="user" value="<?php echo $user_name; ?>"  />
+				
+			&nbsp;
+				
+				<label class="rowtextlabel2"  >Date</label>
+				<input type="text"  name ="date" value="<?php echo $date; ?>"  />
+				
+				<br />
+				<br />
+					<label class="rowtextlabel2"  >Blog:</label><br />
+				<textarea id="blog" type="text" name="blog" ><?php echo $blog; ?></textarea>
+				
+				
+				
+
+				<br />
+				<br />
+				<label class="rowtextlabel2"  >Comments:</label><br />
+						    				
+					<textarea id="comment" type="text" name="comment_text" ></textarea>
+				
+				
+				<br />
+				<input type="submit" name="comment"  value="Add Comment"  />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="submit" name="cancel"  value="cancel"  />
+				
+	
+	
+	
+	
+	
 </div>
 </form>

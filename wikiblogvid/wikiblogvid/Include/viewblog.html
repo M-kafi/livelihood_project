@@ -48,8 +48,12 @@
 				<input id="blog" type="text" name="blog"  value="<?php echo $blog; ?>"  />
 				
 				
+				<?php if( $show_add_comment == 1  )
+				{ ?>
+				<a href="../customer/createcomment.php"> Add Comment</a>
+				<?php } ?>
 				
-				<input type="submit"  value="Add Comment"  />
+				
 				<br />
 				<br />
 				<label class="rowtextlabel2"  >Comments:</label><br />
