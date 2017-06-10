@@ -232,6 +232,38 @@
 		}
 		
 		
+		public function load_titles_admin()
+		{
+			global $connection, $titles_rows, $subject_selected, $retrieved;
+			
+			$sql =" call load_titles_by_subject_admin( $subject_selected ) ";
+			
+			$connection->next_result();
+			$retrieved = $connection -> query ( $sql );
+			
+			if ( $retrieved -> num_rows )
+			{
+				$titles_rows = $retrieved -> fetch_all( MYSQLI_ASSOC );
+				return 1;
+				
+			}
+			else
+			{
+				return 0;
+			}
+		
+
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		public function verify_correct_email( $email )
@@ -350,7 +382,8 @@
 		
 		public function load_content()
 		{
-			global $connection,$display_comments, $comments_rows, $user, $blog, $date, $content_row, $title_selected, $posted_user, $posted_date, $retrieved;
+			global $connection,$display_comments, $comments_rows, $user, $blog, $date,
+			$content_row, $title_selected, $posted_user, $posted_date, $retrieved;
 			
 			if ( $title_selected )
 			{
@@ -386,6 +419,112 @@
 				}
 			
 			}
+			
+		}
+		
+		
+				public function load_content_admin()
+		{
+			global $connection,$display_comments, $comments_rows, $user, $blog, $date,
+			$content_row, $title_selected, $posted_user, $posted_date, $retrieved;
+			
+			if ( $title_selected )
+			{
+			
+				$sql =" call load_blog_content_admin( $title_selected ) ";
+				
+				$connection->next_result();
+				$retrieved = $connection -> query ( $sql );
+				
+				if ( $retrieved -> num_rows )
+				{
+					$content_row = $retrieved -> fetch_row();
+					
+					$blog = $content_row[0];
+					$date = $content_row[1];
+					$user = $content_row[4]." ".$content_row[5];
+					
+					$sql = " call load_comments( $title_selected ) ";
+					$connection -> next_result();
+					
+					$retrieved = $connection -> query( $sql );
+					
+					if( $retrieved ->num_rows )
+					{
+						$comments_rows = $retrieved -> fetch_all();
+						
+						 $display_comments = 1;
+						
+						
+						
+					}
+					
+				}
+			
+			}
+			
+		}
+		
+		
+		
+		
+		
+		public function load_status()
+		{
+			
+		global  $status, $connection, $retrieved, $title_selected, $status_row ,$status ;
+		 
+		 $sql =" call load_status( $title_selected ) ";
+		 $connection -> next_result();
+		 $retrieved = $connection -> query( $sql );
+					if ( $retrieved ->num_rows )
+					{
+						$status_row = $retrieved -> fetch_row();
+						   $status = $status_row[0];
+						return 1;
+						
+					}
+					else
+					{
+						
+						return 0;
+					}
+					
+		 
+		 
+		  
+		
+		
+			
+		}
+		
+		
+		
+		public function update_status()
+		{
+			
+			global $utilities, $status, $connection, $retrieved, $status_selected,$title_selected ;
+			
+			
+			
+			$sql =" call update_status(  $status_selected, $title_selected ) ";
+			$connection -> next_result();
+			
+			if ( $retrieved = $connection -> query( $sql ) )
+			{
+				
+				return 1;
+			}
+			else
+			{
+				
+				return 0;
+			}
+			
+			
+			
+			
+			
 			
 		}
 		

@@ -1,5 +1,87 @@
 <form method="POST" action="" autocomplete="off">
 <div class="divPage">
 	blog maintenance
+	
+	<br />
+	
+	
+	<label class="rowtextlabelright">Select subject</label>
+	
+	&nbsp;
+				<select  name="subject"  onchange ="this.form.submit();">  
+					<option value="">Select</option>					    
+						<?php foreach($subjects_rows as $subject):?>						
+							<option value ="<?php echo $subject['subjectid'] ?>" <?php if($subject_selected == $subject['subjectid']) echo 'selected="selected"' ?>><?php echo $subject['title']?></option>							
+					<?php endforeach;?>		
+				</select>
+				
+				<br />
+				
+				
+				
+	<label class="rowtextlabelright">Select title</label>
+	
+	&nbsp;
+				<select name="titles"   onchange ="this.form.submit();"   >
+				
+				<option value="" >Select</option>
+				<?php foreach($titles_rows as $title_row):?>						
+							<option value ="<?php echo $title_row['blogid'] ?>" <?php if($title_selected == $title_row['blogid']) echo 'selected="selected"' ?>><?php echo $title_row['title']?></option>							
+					<?php endforeach;?>	
+
+				
+				
+				</select>
+				
+				
+				<br />
+				<br />
+				
+				<label class="rowtextlabel2" >User</label>
+				<input  type="text"  name ="user" value="<?php echo $user; ?>"  />
+				
+			&nbsp;
+				
+				<label class="rowtextlabel2"  >Date</label>
+				<input type="text"  name ="date" value="<?php echo $date; ?>"  />
+				
+				
+				
+				<label class="rowtextlabel2" >Status: </label>
+				
+					<select name="status_selected"  >
+				
+				
+									
+							<option value ="1" <?php if( 1 == $status) echo 'selected="selected"' ?>>1</option>							
+							<option value ="0" <?php if( 0 == $status) echo 'selected="selected"' ?>>0</option>							
+					
+
+				
+				
+				</select>
+				
+				<br />
+				<br />
+					<label class="rowtextlabel2"  >Blog:</label><br />
+				<textarea id="blog" type="text" name="blog" ><?php echo $blog; ?></textarea>
+				
+				
+				<br />
+				<br />
+				
+				
+				<?php  if ( $display_buttons == 1 ) {   ?>
+				<input type="submit" name="save" value="Save" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="submit" name="cancel" value="Cancel" />
+				<?php } ?>
+	
+	
+	
+	
+	
+	
+	
+	
 </div>
 </form>
