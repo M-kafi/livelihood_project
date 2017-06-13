@@ -174,7 +174,7 @@ nav
     width:80%;
     height:100%;
     margin: 0px auto;
-    margin-top: 200px;
+    margin-top: 150px;
     font-family: 'Average Sans', sans-serif;
     text-align: center;
     color: #303030;
@@ -221,7 +221,7 @@ nav
     font-size: 26px;
     text-align: left;
     margin-left: 24px;
-  //  font-family: 'PT Sans', sans-serif;
+// font-family: 'PT Sans', sans-serif;
     font-weight: 500;
     margin-top: 90px;
     color: #303030;
@@ -245,6 +245,7 @@ nav
     display: block;
     margin-top: 50px;
     padding: 15px;
+    padding-top: 0px;
     font-size: 24px;
     border-radius: 25px;
    // color: #303030;
@@ -270,7 +271,7 @@ nav
 {
     display: block;
     overflow: hidden;
-    height: 700px;
+    height: 550px;
     margin: 0px auto;
     width: 1000px;
   //  background-color: red;
@@ -336,9 +337,9 @@ nav
      font-size: 26px;
     
    
-  //  font-family: 'PT Sans', sans-serif;
+  //font-family: 'PT Sans', sans-serif;
     font-weight: 500;
-    
+    margin-top: 10px;
     
 }
 

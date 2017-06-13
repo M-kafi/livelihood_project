@@ -113,7 +113,7 @@ $note ="Your message has been submitted!";
             <br />
              
             
-            <textarea name="message" rows="5" cols="50" placeholder="Message..."  class ="input_c mainLoginInput " ></textarea>
+            <textarea name="message" rows="8" cols="50" placeholder="Message..."  class ="input_c mainLoginInput " ></textarea>
             <br />
             <br />
                 <button class="button" type="submit" value = "Send" name="send" > </button>
